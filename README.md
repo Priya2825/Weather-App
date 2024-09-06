@@ -16,15 +16,15 @@ To install and run the project locally:
 
 1. download the file
 2. Open terminal and write the following commands
-  npx expo -h
-  yarn add expo
-  npx expo install
-  npx expo start
+  -> npx expo -h
+  -> yarn add expo
+  -> npx expo install
+  -> npx expo start
 and select ios i for ios stimulator device
 3. To run the test cases write the following commands
-  yarn add -D @testing-library/react-native
-  npx expo install jest-expo jest
-  npm run test
+  -> yarn add -D @testing-library/react-native
+  -> npx expo install jest-expo jest
+  -> npm run test
 
 Usage
 

@@ -26,7 +26,8 @@ To install and run the project locally:
   -> npx expo start
   
 and select ios i for ios stimulator device
-4. To run the test cases write the following commands
+
+3. To run the test cases write the following commands
 
   -> yarn add -D @testing-library/react-native
   

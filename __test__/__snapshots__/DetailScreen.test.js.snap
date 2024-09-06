@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DetailScreen renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "backgroundColor": "#f5f5f5",
+        "flex": 1,
+        "justifyContent": "center",
+        "padding": 20,
+      },
+      {
+        "backgroundColor": "#FFFAF0",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 32,
+        "fontWeight": "600",
+        "marginBottom": 15,
+      }
+    }
+  >
+    Test City
+  </Text>
+  <Image
+    source="http://openweathermap.org/img/wn/01d.png"
+    style={
+      {
+        "height": 266.8,
+        "marginBottom": 13.34,
+        "resizeMode": "contain",
+        "width": 375,
+      }
+    }
+    testID="weather-icon"
+  />
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 64,
+        "fontWeight": "300",
+        "marginBottom": 10,
+      }
+    }
+  >
+    25
+    °C
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#666",
+        "fontSize": 20,
+        "marginBottom": 10,
+      }
+    }
+  >
+    Clear
+  </Text>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginBottom": 30,
+        "width": "80%",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#666",
+            "fontSize": 18,
+            "marginBottom": 5,
+          }
+        }
+      >
+        Wind
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#333",
+            "fontSize": 22,
+            "fontWeight": "600",
+          }
+        }
+      >
+        10
+        km/h
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "alignItems": "center",
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#666",
+            "fontSize": 18,
+            "marginBottom": 5,
+          }
+        }
+      >
+        Humidity
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#333",
+            "fontSize": 22,
+            "fontWeight": "600",
+          }
+        }
+      >
+        60
+        %
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "padding": 20,
+      }
+    }
+  >
+    <Text>
+      Show full report
+    </Text>
+  </View>
+  <RCTScrollView
+    data={[]}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={0.0001}
+    showsHorizontalScrollIndicator={false}
+    stickyHeaderIndices={[]}
+    style={
+      {
+        "width": "100%",
+      }
+    }
+    viewabilityConfigCallbackPairs={[]}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;

@@ -1,0 +1,537 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReportScreen renders correctly with given data 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#f7f7f7",
+      "flex": 1,
+      "padding": 16,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "fontSize": 24,
+        "fontWeight": "bold",
+        "marginBottom": 16,
+        "textAlign": "center",
+      }
+    }
+  >
+    Forecast report
+  </Text>
+  <View
+    style={
+      {
+        "marginBottom": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 20,
+          "fontWeight": "600",
+          "marginBottom": 8,
+        }
+      }
+    >
+      Today
+    </Text>
+    <RCTScrollView
+      data={
+        [
+          {
+            "dt": 1636339200,
+            "main": {
+              "temp": 22,
+            },
+            "weather": [
+              {
+                "main": "Clear",
+              },
+            ],
+          },
+          {
+            "dt": 1636425600,
+            "main": {
+              "temp": 24,
+            },
+            "weather": [
+              {
+                "main": "Cloudy",
+              },
+            ],
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={true}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      showsHorizontalScrollIndicator={false}
+      stickyHeaderIndices={[]}
+      style={
+        {
+          "width": "100%",
+        }
+      }
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#FBFFF1",
+                  "borderRadius": 20,
+                  "justifyContent": "center",
+                  "marginRight": 15,
+                  "padding": 10,
+                  "width": 120,
+                },
+                {
+                  "backgroundColor": undefined,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#3C3744",
+                  "fontSize": 18,
+                  "marginBottom": 5,
+                }
+              }
+            />
+            <Image
+              source={
+                {
+                  "uri": undefined,
+                }
+              }
+              style={
+                {
+                  "height": 50,
+                  "resizeMode": "contain",
+                  "width": 50,
+                }
+              }
+            />
+            <Text
+              style={
+                {
+                  "color": "#3C3744",
+                  "fontSize": 18,
+                  "fontWeight": "500",
+                  "marginTop": 5,
+                }
+              }
+            >
+              °C
+            </Text>
+          </View>
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={
+            [
+              {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              [
+                {
+                  "alignItems": "center",
+                  "backgroundColor": "#FBFFF1",
+                  "borderRadius": 20,
+                  "justifyContent": "center",
+                  "marginRight": 15,
+                  "padding": 10,
+                  "width": 120,
+                },
+                {
+                  "backgroundColor": undefined,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                {
+                  "color": "#3C3744",
+                  "fontSize": 18,
+                  "marginBottom": 5,
+                }
+              }
+            />
+            <Image
+              source={
+                {
+                  "uri": undefined,
+                }
+              }
+              style={
+                {
+                  "height": 50,
+                  "resizeMode": "contain",
+                  "width": 50,
+                }
+              }
+            />
+            <Text
+              style={
+                {
+                  "color": "#3C3744",
+                  "fontSize": 18,
+                  "fontWeight": "500",
+                  "marginTop": 5,
+                }
+              }
+            >
+              °C
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+  <View
+    style={
+      {
+        "marginBottom": 16,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "fontSize": 20,
+          "fontWeight": "600",
+          "marginBottom": 8,
+        }
+      }
+    >
+      Next forecast: 
+      Test City
+    </Text>
+    <RCTScrollView
+      ItemSeparatorComponent={[Function]}
+      contentContainerStyle={
+        {
+          "paddingVertical": 8,
+        }
+      }
+      data={
+        [
+          {
+            "dt": 1636339200,
+            "main": {
+              "temp": 22,
+            },
+            "weather": [
+              {
+                "main": "Clear",
+              },
+            ],
+          },
+          {
+            "dt": 1636425600,
+            "main": {
+              "temp": 24,
+            },
+            "weather": [
+              {
+                "main": "Cloudy",
+              },
+            ],
+          },
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={0.0001}
+      stickyHeaderIndices={[]}
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "borderRadius": 20,
+                "elevation": 5,
+                "flex": 1,
+                "marginBottom": 16,
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+                "shadowRadius": 10,
+              }
+            }
+            testID="listitem"
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 20,
+                    "flexDirection": "row",
+                    "padding": 20,
+                  },
+                  {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                ]
+              }
+            >
+              <Image
+                source={null}
+                style={
+                  {
+                    "height": 100,
+                    "resizeMode": "contain",
+                    "width": 100,
+                  }
+                }
+              />
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "marginLeft": 16,
+                  }
+                }
+              >
+                <Text>
+                  2021-11-08
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#666",
+                      "fontSize": 18,
+                    }
+                  }
+                >
+                  Clear
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontSize": 32,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  22
+                  °C
+                </Text>
+              </View>
+            </View>
+          </View>
+          <View
+            style={
+              {
+                "height": 16,
+              }
+            }
+          />
+        </View>
+        <View
+          onFocusCapture={[Function]}
+          onLayout={[Function]}
+          style={null}
+        >
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "borderRadius": 20,
+                "elevation": 5,
+                "flex": 1,
+                "marginBottom": 16,
+                "opacity": 1,
+                "shadowColor": "#000",
+                "shadowOffset": {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.1,
+                "shadowRadius": 10,
+              }
+            }
+            testID="listitem"
+          >
+            <View
+              style={
+                [
+                  {
+                    "borderRadius": 20,
+                    "flexDirection": "row",
+                    "padding": 20,
+                  },
+                  {
+                    "backgroundColor": "#FFFFFF",
+                  },
+                ]
+              }
+            >
+              <Image
+                source={null}
+                style={
+                  {
+                    "height": 100,
+                    "resizeMode": "contain",
+                    "width": 100,
+                  }
+                }
+              />
+              <View
+                style={
+                  {
+                    "flex": 1,
+                    "justifyContent": "center",
+                    "marginLeft": 16,
+                  }
+                }
+              >
+                <Text>
+                  2021-11-09
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#666",
+                      "fontSize": 18,
+                    }
+                  }
+                >
+                  Cloudy
+                </Text>
+                <Text
+                  style={
+                    {
+                      "color": "#000",
+                      "fontSize": 32,
+                      "fontWeight": "bold",
+                    }
+                  }
+                >
+                  24
+                  °C
+                </Text>
+              </View>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
